@@ -75,15 +75,15 @@ class _HomePageState extends State<HomePage> {
       const ShortcutItem(
         type: 'saldo',
         localizedTitle: 'Consultar saldo',
-        icon: 'attach_money',
+        icon: 'ic_launcher',
       ),
       const ShortcutItem(
         type: 'datos',
         localizedTitle: 'Consultar datos',
-        icon: 'data_ussage',
+        icon: 'ic_launcher',
       ),
       const ShortcutItem(
-          type: 'bono', localizedTitle: 'Consultar bono', icon: 'data_ussage'),
+          type: 'bono', localizedTitle: 'Consultar bono', icon: 'ic_launcher'),
     ]);
   }
 
