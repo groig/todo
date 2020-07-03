@@ -68,6 +68,9 @@ class _HomePageState extends State<HomePage> {
         case 'bono':
           callTo('*222*266#');
           break;
+        case 'corp':
+          callTo('*111#');
+          break;
       }
     });
 
@@ -75,15 +78,15 @@ class _HomePageState extends State<HomePage> {
       const ShortcutItem(
         type: 'saldo',
         localizedTitle: 'Consultar saldo',
-        icon: 'ic_launcher',
       ),
       const ShortcutItem(
         type: 'datos',
         localizedTitle: 'Consultar datos',
-        icon: 'ic_launcher',
       ),
       const ShortcutItem(
-          type: 'bono', localizedTitle: 'Consultar bono', icon: 'ic_launcher'),
+          type: 'bono', localizedTitle: 'Consultar bono'),
+      const ShortcutItem(
+          type: 'corp', localizedTitle: 'Línea corporativa'),
     ]);
   }
 
